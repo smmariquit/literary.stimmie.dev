@@ -165,7 +165,7 @@ const papers = [
   },
   {
     slug: 'di-kita-pipigilan',
-    title: 'di kita pipigilan',
+    title: 'matulog ka na',
     date: 'July 2026',
     form: 'poem',
     body: `
@@ -198,7 +198,7 @@ mag ingat ka sa buendia</p>
   {
     slug: 'ceilings',
     title: 'Ceilings',
-    date: '2025',
+    date: '2026',
     form: 'shortform',
     body: `
 <p>We forgot what our ceilings look like because we're so busy with our damn phones.</p>
