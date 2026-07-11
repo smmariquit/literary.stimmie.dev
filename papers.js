@@ -349,7 +349,6 @@ if it's for ü</p>
     date: '2023',
     form: 'shortform',
     body: `
-<p>Words from my younger years, competing and writing stories.</p>
     `,
   },
   {
@@ -360,6 +359,7 @@ if it's for ü</p>
     body: `
 <p>Served as Editor-in-Chief, wrote articles, and did the layout when this was released.</p>
 <p><a href="https://www.smcl.edu.ph/student_life/publications/Pahayagang%20Miguel%202023.php" target="_blank" rel="noopener noreferrer">View Publication</a></p>
+<iframe src="https://www.smcl.edu.ph/student_life/publications/Pahayagang%20Miguel%202023.php" width="100%" height="800" style="border:1px solid #ccc; border-radius: 8px; margin-top: 1rem;"></iframe>
     `,
   },
   {
