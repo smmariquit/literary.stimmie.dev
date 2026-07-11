@@ -251,6 +251,49 @@ because you are my precious dreamer.</p>
 <p>hindi ka deep</p>
     `,
   },
+  {
+    slug: 'ad-astra',
+    title: 'Ad Astra',
+    date: '2026',
+    form: 'longform',
+    body: `
+<p>The sky, to me, is a window to a universe.</p>
+
+<p>It is not necessarily the universe that exists in reality. Instead, whenever I look at the shifting hues, the turbulent clouds, and the form of the constellations, what lies beyond it takes the likeness of all the craziest aspirations I have in this life—some well outside the scope of sane human comprehension.</p>
+
+<p>It is my universe.</p>
+
+<p>The latin phrase "per aspera ad astra" resonated with me since I heard it for the first time ever. Seeing the night sky always reminded me of its significance. There will always be somewhere further I can go as I laugh at the face of adversity.</p>
+
+<p>All the medals, marches, and merits always had something missing. There was an emptiness that no aptitude seemed to have been able to fill.</p>
+
+<p>Frankly, that hole had been present for most of my life. Nothing was ever enough and every accomplishment only revealed to me how far I have yet to go. While, to this day, that specific grievance still lingers in my heart, it was through a certain person who came in my life that I learned what the heavens are trying to tell me.</p>
+
+<p>Aside from being someone whose example puts me at ease to follow and the confidant I have never felt as safe with, one of her greatest favorites is the sky. I always thought the sky was nothing but mundane. It has always existed in the background of my perception, equal to what I saw as mundane trees, mundane cityscapes, and mundane people.</p>
+
+<p>It remains a question to me how it is that despite all my accomplishments, my perspective remains as such.</p>
+
+<p>Throughout my friendship with her, I have always made a point to notice the sky whenever I go outside. I took photographs of them. I realized at some point that almost all of the shots I took were of the sky.</p>
+
+<p>I noticed the different types of clouds and how they seem to always be changed whenever my attention drifts back to them. The times, accounting for the small change from the solstices, when they would be at a certain hue seemed like codes at the back of my hand. The constellations, even up to a certain level of fogginess, still seemed pronounced.</p>
+
+<p>I started to see the beauty in ordinariness and simply living. I had always tried to commit to a life of pressure and being busy, and at some point it took its toll on me. One other friend pointed out, even, that my dedication was robotic.</p>
+
+<p>At the same time that she taught me to love the sky, I also learned to keep her dear to my heart, albeit in a way that is currently inexplicable to me.</p>
+
+<p>It was a cozy August afternoon when the exact pain I described felt like it was piercing through the deepest parts of my heart. I had given my all into the work that I do and even to the loss of my mental stamina I never uncovered what was enough.</p>
+
+<p>In a raging streak of motivation fueled by the disdain I felt for myself, I thought going for a run outside would help me get through that day.</p>
+
+<p>And so I ventured into my mundane piece of the world in a sprint. What greeted me were the biggest cumulus clouds that I have paid attention to.</p>
+
+<p>In that moment, an overwhelming sensation of relief hit me. It was exactly what I needed. It felt like the clouds offered to carry the weight in my heart for a few minutes. I started sobbing, and in those few seconds it felt like the universe was telling me that I can do this.</p>
+
+<p>I write this moment disproportionately more dramatic than it really was. It even felt right for a while to add that it so conveniently rained right after. This realization has helped me see the climax in the anticlimactic, the beauty in the ordinary, and the art of simply living. It helps me convince myself that I am enough and that I should be kinder myself.</p>
+
+<p>Under the skies I ponder that perhaps I don't have to chase <em>the</em> stars. Maybe what I have to so persistently struggle for are <em>my</em> stars.</p>
+    `,
+  },
 ];
 
 export default papers;
