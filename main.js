@@ -44,7 +44,18 @@ function render(slug) {
     });
 
     // Update page title
-    document.title = `${paper.title} — Literary`;
+    document.title = `${paper.title} | Literary`;
+
+    // Extract excerpt for meta tags
+    const temp = document.createElement('div');
+    temp.innerHTML = paper.body;
+    const text = temp.textContent || temp.innerText || '';
+    const excerpt = text.trim().substring(0, 160) + (text.length > 160 ? '...' : '');
+    
+    const metaDesc = document.getElementById('meta-desc');
+    const ogDesc = document.getElementById('og-desc');
+    if (metaDesc) metaDesc.setAttribute('content', excerpt);
+    if (ogDesc) ogDesc.setAttribute('content', excerpt);
 
     // Scroll to top of reader
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -64,7 +75,12 @@ function renderLanding() {
     btn.classList.remove('active');
   });
 
-  document.title = 'Literary — stimmie';
+  document.title = 'Literary | stimmie';
+
+  const metaDesc = document.getElementById('meta-desc');
+  const ogDesc = document.getElementById('og-desc');
+  if (metaDesc) metaDesc.setAttribute('content', 'Writing by stimmie. Longform and shortform pieces.');
+  if (ogDesc) ogDesc.setAttribute('content', 'Writing by stimmie. Longform and shortform pieces.');
 
   // Show the first paper by default
   if (papers.length > 0) {
