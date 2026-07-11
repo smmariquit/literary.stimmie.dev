@@ -344,14 +344,6 @@ if it's for ü</p>
     `,
   },
   {
-    slug: 'contributions-to-the-michaelean',
-    title: 'Contributions to the michaelean',
-    date: '2023',
-    form: 'shortform',
-    body: `
-    `,
-  },
-  {
     slug: 'pahayagang-miguel-2023',
     title: 'Pahayagang Miguel 2023',
     date: '2023',
