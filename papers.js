@@ -195,6 +195,15 @@ mag ingat ka sa buendia</p>
 </div>
     `,
   },
+  {
+    slug: 'ceilings',
+    title: 'Ceilings',
+    date: '2025',
+    form: 'shortform',
+    body: `
+<p>We forgot what our ceilings look like because we're so busy with our damn phones.</p>
+    `,
+  },
 ];
 
 export default papers;
