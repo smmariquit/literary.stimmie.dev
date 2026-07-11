@@ -354,16 +354,6 @@ if it's for ü</p>
 <iframe src="https://www.smcl.edu.ph/student_life/publications/Pahayagang%20Miguel%202023.php" width="100%" height="800" style="border:1px solid #ccc; border-radius: 8px; margin-top: 1rem;"></iframe>
     `,
   },
-  {
-    slug: 'overachievement-and-city-life',
-    title: 'Overachievement and City Life',
-    date: '2023',
-    form: 'shortform',
-    body: `
-<p>A reflection on the hustle and the quiet moments in between.</p>
-<p><em>(Excerpt from Medium essays)</em></p>
-    `,
-  },
 ];
 
 export default papers;
