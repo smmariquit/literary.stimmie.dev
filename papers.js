@@ -292,6 +292,8 @@ because you are my precious dreamer.</p>
 <p>I write this moment disproportionately more dramatic than it really was. It even felt right for a while to add that it so conveniently rained right after. This realization has helped me see the climax in the anticlimactic, the beauty in the ordinary, and the art of simply living. It helps me convince myself that I am enough and that I should be kinder myself.</p>
 
 <p>Under the skies I ponder that perhaps I don't have to chase <em>the</em> stars. Maybe what I have to so persistently struggle for are <em>my</em> stars.</p>
+
+<p><em>* Note: This is the piece I submitted as my Ateneo college application essay.</em></p>
     `,
   },
 ];
