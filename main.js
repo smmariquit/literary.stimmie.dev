@@ -29,7 +29,7 @@ function render(slug) {
 
   requestAnimationFrame(() => {
     titleEl.textContent = paper.title;
-    metaEl.textContent = `${paper.date} · ${paper.form}`;
+    metaEl.textContent = `stimmie · ${paper.date} · ${paper.form}`;
     bodyEl.innerHTML = paper.body;
 
     // Update nav active state
