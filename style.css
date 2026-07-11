@@ -24,20 +24,20 @@
 
 /* ── Base ─────────────────────────────────────────── */
 html {
-  font-size: 22px;
+  font-size: 19px;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
-  font-family: var(--serif);
+  font-family: var(--sans);
   color: var(--fg);
   background: var(--bg);
-  line-height: 1.75;
+  line-height: 1.6;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 ::selection {
@@ -134,7 +134,8 @@ main#reader {
 
 #paper-meta {
   font-family: var(--sans);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
+  font-weight: 500;
   color: var(--fg-muted);
   margin-bottom: 2.5rem;
   letter-spacing: 0.02em;
