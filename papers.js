@@ -20,13 +20,13 @@ const papers = [
     body: `
 <p>There is a particular hour in the late afternoon when the campus empties out and the acacia shadows stretch long across the oval. I have always preferred walking at that hour. Not for exercise, not to get somewhere, but because walking is the only activity I know that asks nothing of you and gives everything back.</p>
 
-<p>You put one foot in front of the other and the world rearranges itself. Problems that sat like stones in your chest begin to loosen. Not because you solved them — you didn't — but because your body remembered that it is an animal, and animals do not hold committee meetings about their anxieties.</p>
+<p>You put one foot in front of the other and the world rearranges itself. Problems that sat like stones in your chest begin to loosen. Not because you solved them, you didn't, but because your body remembered that it is an animal, and animals do not hold committee meetings about their anxieties.</p>
 
 <p>The best walks have no destination. A destination turns a walk into an errand. I want the opposite of an errand. I want to be unpurposed, unmapped, moving through space with the dumb happiness of a dog let off the leash.</p>
 
 <hr />
 
-<p>I distrust people who never walk. Not in a moral way — I'm not that sort — but in a diagnostic way. Something in them has gone rigid. They have forgotten that the body is not a vehicle for the head. It is the other way around.</p>
+<p>I distrust people who never walk. Not in a moral way, I'm not that sort, but in a diagnostic way. Something in them has gone rigid. They have forgotten that the body is not a vehicle for the head. It is the other way around.</p>
 
 <p>When I cannot write, I walk. When I cannot think, I walk. When I am angry at someone and composing devastating replies in my head, I walk, and by the third kilometer the replies have dissolved and I am watching a mynah bird harass a cat and the anger seems very far away and very silly.</p>
 
@@ -47,7 +47,7 @@ const papers = [
 
 <h2>The Chair</h2>
 
-<p>My lolo had a chair on the porch — a wooden thing, dark with age and arm-oil, that creaked when you sat in it but held firm. He sat in that chair every afternoon from about two o'clock until merienda. He watched the mango tree. He watched the chickens. He watched the clouds, which, in the province, are worth watching because they are enormous and slow and have nowhere to be, same as him.</p>
+<p>My lolo had a chair on the porch, a wooden thing, dark with age and arm-oil, that creaked when you sat in it but held firm. He sat in that chair every afternoon from about two o'clock until merienda. He watched the mango tree. He watched the chickens. He watched the clouds, which, in the province, are worth watching because they are enormous and slow and have nowhere to be, same as him.</p>
 
 <p>If you asked him what he was doing, he would say "nag-iisip-isip." Thinking-thinking. The reduplication implies something less than real thinking. Not working out a problem, not planning. Just letting the mind go where it goes, the way you let a carabao wade into a river.</p>
 
@@ -55,11 +55,11 @@ const papers = [
 
 <h2>Against Productivity</h2>
 
-<p>I am suspicious of productivity. Not of work — work is fine, work is often good — but of the ideology that has grown up around it like kudzu on a telephone pole. The ideology says: every hour is a resource. To leave a resource unexploited is waste. Waste is sin.</p>
+<p>I am suspicious of productivity. Not of work, work is fine, work is often good, but of the ideology that has grown up around it like kudzu on a telephone pole. The ideology says: every hour is a resource. To leave a resource unexploited is waste. Waste is sin.</p>
 
 <p>This is the logic of a factory applied to a human being. It works about as well as you'd expect. The factory produces output. The human being produces anxiety, guilt, and a chronic sense that something has gone wrong, although by every external metric things are going fine.</p>
 
-<p>My lolo did not have this problem. He had other problems — money was often tight, the roof leaked, the local politics were a soap opera he could not change the channel on — but he did not have the specifically modern problem of feeling guilty for sitting still.</p>
+<p>My lolo did not have this problem. He had other problems, money was often tight, the roof leaked, the local politics were a soap opera he could not change the channel on, but he did not have the specifically modern problem of feeling guilty for sitting still.</p>
 
 <hr />
 
@@ -84,7 +84,7 @@ const papers = [
     date: 'March 2025',
     form: 'shortform',
     body: `
-<p>I do not understand people who eat lunch at their desks. Not in a condescending way. Genuinely. What are you saving the twenty minutes for? Are you going to use those twenty minutes to do something magnificent? You are not. You are going to answer emails that could have waited. You have traded a meal — one of the three or four anchoring rituals of the day — for the privilege of replying to someone who wrote "per my last email." That is a bad trade.</p>
+<p>I do not understand people who eat lunch at their desks. Not in a condescending way. Genuinely. What are you saving the twenty minutes for? Are you going to use those twenty minutes to do something magnificent? You are not. You are going to answer emails that could have waited. You have traded a meal, one of the three or four anchoring rituals of the day, for the privilege of replying to someone who wrote "per my last email." That is a bad trade.</p>
 
 <hr />
 
@@ -100,7 +100,7 @@ const papers = [
 
 <hr />
 
-<p>I do not understand networking. Not the concept — the concept is fine, you meet people, some of them become friends or collaborators — but the practice. The practice involves standing in a room with a lanyard around your neck, holding a drink you don't want, talking to someone who is also holding a drink they don't want, and both of you are performing enthusiasm about each other's work while scanning over each other's shoulders for someone more useful. This is socializing with the joy removed.</p>
+<p>I do not understand networking. Not the concept, the concept is fine, you meet people, some of them become friends or collaborators, but the practice. The practice involves standing in a room with a lanyard around your neck, holding a drink you don't want, talking to someone who is also holding a drink they don't want, and both of you are performing enthusiasm about each other's work while scanning over each other's shoulders for someone more useful. This is socializing with the joy removed.</p>
 
 <hr />
 
@@ -119,7 +119,7 @@ const papers = [
 
 <p>The rain has a sense of timing that borders on malice. It waits until you are exactly far enough from shelter that running is futile and walking is dignified but wet. Then it arrives, not gradually but all at once, like someone upending a bucket from a great height.</p>
 
-<p>There are two kinds of people in a sudden downpour: those who run and those who walk. The runners are optimists. They believe speed will save them. It will not. They will arrive at their destination exactly as wet as the walkers, but out of breath. The walkers have accepted reality. They are already wet. The question is settled. They can now pay attention to other things — the smell of the rain on concrete, which is one of the best smells in the world, or the sound of it on tin roofs, which is better than most music.</p>
+<p>There are two kinds of people in a sudden downpour: those who run and those who walk. The runners are optimists. They believe speed will save them. It will not. They will arrive at their destination exactly as wet as the walkers, but out of breath. The walkers have accepted reality. They are already wet. The question is settled. They can now pay attention to other things: the smell of the rain on concrete, which is one of the best smells in the world, or the sound of it on tin roofs, which is better than most music.</p>
 
 <hr />
 
@@ -148,7 +148,7 @@ const papers = [
 
 <h2>Comfort and Confrontation</h2>
 
-<p>Some books I reread for comfort. I know what is going to happen. I know the sentences. I know which paragraphs will make me stop and look up. This is not laziness. This is the reading equivalent of going home — you know where everything is, you know how the light falls in the afternoon, and the familiarity is the point.</p>
+<p>Some books I reread for comfort. I know what is going to happen. I know the sentences. I know which paragraphs will make me stop and look up. This is not laziness. This is the reading equivalent of going home, you know where everything is, you know how the light falls in the afternoon, and the familiarity is the point.</p>
 
 <p>Other books I reread because they were smarter than I was the first time. They said things I didn't catch. They made arguments I wasn't ready to hear. Rereading them is not comfort. It is confrontation. The book has been sitting on the shelf, patient and unchanged, waiting for me to catch up.</p>
 
@@ -156,7 +156,7 @@ const papers = [
 
 <hr />
 
-<p>I keep a shelf of books I intend to reread. It is not organized by author or genre. It is organized by something I can only describe as emotional weather — books for restlessness, books for sadness, books for the specific kind of afternoon where you are not unhappy but not quite happy either and you need someone else's words to tell you what the feeling is called.</p>
+<p>I keep a shelf of books I intend to reread. It is not organized by author or genre. It is organized by something I can only describe as emotional weather: books for restlessness, books for sadness, books for the specific kind of afternoon where you are not unhappy but not quite happy either and you need someone else's words to tell you what the feeling is called.</p>
 
 <p>New books are a gamble. You might love them. You might not. You won't know until you're forty pages in, by which point you've committed the evening. Rereading is a sure thing. You know the return. You know the cost. The transaction is honest.</p>
 
