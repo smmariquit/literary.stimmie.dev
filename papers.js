@@ -297,8 +297,8 @@ because you are my precious dreamer.</p>
     `,
   },
   {
-    slug: 'i-take-a-shot',
-    title: 'i take a shot',
+    slug: 'pink-skies-not-found-for-now',
+    title: 'pink skies not found (for now)',
     date: '2026',
     form: 'poem',
     body: `
