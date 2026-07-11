@@ -296,6 +296,27 @@ because you are my precious dreamer.</p>
 <p><em>* Note: This is the piece I submitted as my Ateneo college application essay.</em></p>
     `,
   },
+  {
+    slug: 'i-take-a-shot',
+    title: 'i take a shot',
+    date: '2026',
+    form: 'poem',
+    body: `
+<div class="verse">
+<p>i take a shot<br />
+of skies not blue</p>
+
+<p>i took a shot<br />
+of skies for u!</p>
+
+<p>i'd take a shot<br />
+of any hue</p>
+
+<p>i'll take a shot<br />
+if it's for ü</p>
+</div>
+    `,
+  },
 ];
 
 export default papers;
