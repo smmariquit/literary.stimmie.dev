@@ -330,6 +330,19 @@ if it's for ü</p>
 <p>In the same period of time, we realized the importance of pause. As the idea of keeping busy in a distorted version of hustle culture grows more popular in the sense that there is no alternative for success,</p>
     `,
   },
+  {
+    slug: 'would-go-to-the-iss-and-talk-to-you',
+    title: 'Would go to the ISS and talk to you',
+    date: '2026',
+    form: 'shortform',
+    body: `
+<p>Clocks at the International Space Station lag behind by approximately 0.01 seconds every 12 months on Earth. That's general relativity for you.</p>
+
+<p>It baffles me how even time dilation cannot explain why my heart seems to race faster when in your presence despite feeling that time runs so so slow.</p>
+
+<p>A millisecond of time spent with you is more valuable than a lot of things, and I would go into the depths of the cosmos to spend more time with you.</p>
+    `,
+  },
 ];
 
 export default papers;
