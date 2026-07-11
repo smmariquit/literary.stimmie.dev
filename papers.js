@@ -254,7 +254,7 @@ because you are my precious dreamer.</p>
   {
     slug: 'ad-astra',
     title: 'Ad Astra',
-    date: '2026',
+    date: '2023',
     form: 'longform',
     body: `
 <p>The sky, to me, is a window to a universe.</p>
