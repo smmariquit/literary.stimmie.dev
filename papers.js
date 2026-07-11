@@ -204,6 +204,25 @@ mag ingat ka sa buendia</p>
 <p>We forgot what our ceilings look like because we're so busy with our damn phones.</p>
     `,
   },
+  {
+    slug: 'dreamer',
+    title: 'dreamer',
+    date: '2025',
+    form: 'poem',
+    body: `
+<div class="verse">
+<p>sleep tonight, my little dreamer,<br />
+dream of dreams we'll both remember.<br />
+safe and sound, we'll dream together&mdash;<br />
+dream of scenes so warm and tender</p>
+
+<p>if, one day, my little dreamer,<br />
+dreaming dreams gets so much harder<br />
+i'll stay until the storm is over<br />
+because you are my precious dreamer.</p>
+</div>
+    `,
+  },
 ];
 
 export default papers;
