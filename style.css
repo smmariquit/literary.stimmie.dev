@@ -1,0 +1,287 @@
+/* ── Reset ────────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ── Tokens ───────────────────────────────────────── */
+:root {
+  --serif: 'Cormorant Garamond', 'Georgia', serif;
+  --sans: 'Inter', system-ui, sans-serif;
+
+  --fg: #1a1a1a;
+  --fg-muted: #6b6b6b;
+  --bg: #faf8f5;
+  --bg-nav: #faf8f5;
+  --border: #e0dcd6;
+  --accent: #3d3429;
+  --link-hover: #8c7a5e;
+
+  --measure: 38em;
+  --gutter: clamp(1.25rem, 5vw, 4rem);
+}
+
+/* ── Base ─────────────────────────────────────────── */
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--serif);
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.75;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background: #d4c9b5;
+  color: var(--fg);
+}
+
+/* ── Header ───────────────────────────────────────── */
+#site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg-nav);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem var(--gutter);
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#site-title {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+#paper-nav {
+  display: flex;
+  gap: 0.15rem;
+  flex-wrap: wrap;
+}
+
+#paper-nav button {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  background: none;
+  border: none;
+  padding: 0.3rem 0.65rem;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: color 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
+}
+
+#paper-nav button:hover {
+  color: var(--fg);
+}
+
+#paper-nav button.active {
+  color: var(--fg);
+  background: rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+}
+
+/* ── Main / Reader ────────────────────────────────── */
+main#reader {
+  flex: 1;
+  padding: 3rem var(--gutter) 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+#paper {
+  max-width: var(--measure);
+  width: 100%;
+}
+
+#paper-title {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+}
+
+#paper-meta {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.02em;
+}
+
+/* ── Paper body typography ────────────────────────── */
+#paper-body p {
+  margin-bottom: 1.3em;
+  text-align: left;
+  hanging-punctuation: first;
+}
+
+#paper-body p + p {
+  text-indent: 1.5em;
+  margin-top: 0;
+}
+
+#paper-body h2 {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 2.5em;
+  margin-bottom: 0.8em;
+  color: var(--fg);
+}
+
+#paper-body h2 + p {
+  text-indent: 0;
+}
+
+#paper-body h3 {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+
+#paper-body h3 + p {
+  text-indent: 0;
+}
+
+#paper-body blockquote {
+  margin: 1.8em 0;
+  padding-left: 1.5em;
+  border-left: 2px solid var(--border);
+  color: var(--fg-muted);
+  font-style: italic;
+}
+
+#paper-body blockquote p {
+  text-indent: 0;
+}
+
+#paper-body hr {
+  border: none;
+  text-align: center;
+  margin: 2.5em 0;
+}
+
+#paper-body hr::after {
+  content: '· · ·';
+  color: var(--fg-muted);
+  letter-spacing: 0.4em;
+  font-size: 0.85rem;
+}
+
+#paper-body ul,
+#paper-body ol {
+  margin: 1em 0 1.3em 1.5em;
+}
+
+#paper-body li {
+  margin-bottom: 0.3em;
+}
+
+#paper-body a {
+  color: var(--accent);
+  text-decoration-color: var(--border);
+  text-underline-offset: 0.15em;
+  transition: text-decoration-color 0.15s ease;
+}
+
+#paper-body a:hover {
+  text-decoration-color: var(--accent);
+}
+
+#paper-body em {
+  font-style: italic;
+}
+
+#paper-body strong {
+  font-weight: 600;
+}
+
+/* ── Section separator (between sections in longform) */
+.section-break {
+  display: block;
+  text-align: center;
+  margin: 3em 0;
+  color: var(--fg-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.5em;
+}
+
+/* ── Footer ───────────────────────────────────────── */
+#site-footer {
+  padding: 1.5rem var(--gutter);
+  border-top: 1px solid var(--border);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--fg-muted);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* ── Fade-in on paper load ────────────────────────── */
+#paper.loading {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+#paper {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* ── Landing state (no paper selected yet) ────────── */
+#paper-body .landing {
+  font-style: italic;
+  color: var(--fg-muted);
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  #site-header {
+    gap: 0.8rem;
+  }
+
+  #paper-nav {
+    gap: 0.05rem;
+  }
+
+  #paper-nav button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.68rem;
+  }
+
+  main#reader {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+}
