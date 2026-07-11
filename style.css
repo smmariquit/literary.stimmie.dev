@@ -240,6 +240,17 @@ main#reader {
   letter-spacing: 0.5em;
 }
 
+/* ── Verse / poetry ───────────────────────────────── */
+.verse p {
+  text-indent: 0;
+  margin-bottom: 1.8em;
+  line-height: 1.9;
+}
+
+.verse p + p {
+  text-indent: 0;
+}
+
 /* ── Footer ───────────────────────────────────────── */
 #site-footer {
   padding: 1.5rem var(--gutter);

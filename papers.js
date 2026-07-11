@@ -163,6 +163,38 @@ const papers = [
 <p>I do not apologize for rereading. I have too many new books on the pile and not enough time, same as everyone, and I choose to spend some of that time on books that have already proven they are worth it. That is not waste. That is judgment.</p>
     `,
   },
+  {
+    slug: 'di-kita-pipigilan',
+    title: 'di kita pipigilan',
+    date: '2025',
+    form: 'poem',
+    body: `
+<div class="verse">
+<p>di kita pipigilan<br />
+&nbsp;&nbsp;&nbsp;&nbsp;matulog</p>
+
+<p>hindi kita kilala<br />
+alam kong pagod ka<br />
+&nbsp;&nbsp;&nbsp;&nbsp;sandal ka lang<br />
+&nbsp;&nbsp;&nbsp;&nbsp;di ako gagalaw</p>
+
+<p>matulog kang malalim<br />
+at mahimbing<br />
+&nbsp;&nbsp;&nbsp;&nbsp;ihinga<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ang pusong nawarak<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<em>taympers</em> muna<br />
+&nbsp;&nbsp;&nbsp;&nbsp;ang galit sa mundo</p>
+
+<p>sana may bunga ang puyat<br />
+&nbsp;&nbsp;&nbsp;&nbsp;tagumpay ang hele<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paglipas ng panahon</p>
+
+<p>pasensya na<br />
+bababa na ako sa magallanes<br />
+mag ingat ka sa buendia</p>
+</div>
+    `,
+  },
 ];
 
 export default papers;
