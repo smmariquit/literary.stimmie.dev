@@ -76,11 +76,20 @@ body {
   -webkit-overflow-scrolling: touch;
   mask-image: linear-gradient(to right, black calc(100% - 2rem), transparent);
   -webkit-mask-image: linear-gradient(to right, black calc(100% - 2rem), transparent);
-  scrollbar-width: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+  padding-bottom: 0.25rem;
 }
 
 #paper-nav::-webkit-scrollbar {
-  display: none;
+  height: 4px;
+}
+#paper-nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+#paper-nav::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 4px;
 }
 
 #paper-nav button {
