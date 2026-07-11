@@ -10,13 +10,13 @@
   --serif: 'Cormorant Garamond', 'Georgia', serif;
   --sans: 'Inter', system-ui, sans-serif;
 
-  --fg: #111;
-  --fg-muted: #555;
-  --bg: #faf8f5;
-  --bg-nav: #faf8f5;
-  --border: #d9d4cc;
+  --fg: #2c2824;
+  --fg-muted: #726859;
+  --bg: #f4eee3;
+  --bg-nav: #f4eee3;
+  --border: #dfd7c8;
   --accent: #2a2218;
-  --link-hover: #6b5d48;
+  --link-hover: #807058;
 
   --measure: 38em;
   --gutter: clamp(1.25rem, 5vw, 4rem);
@@ -24,7 +24,7 @@
 
 /* ── Base ─────────────────────────────────────────── */
 html {
-  font-size: 18px;
+  font-size: 22px;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
 }
