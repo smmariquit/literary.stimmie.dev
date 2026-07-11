@@ -223,6 +223,21 @@ because you are my precious dreamer.</p>
 </div>
     `,
   },
+  {
+    slug: 'maligayang-walang-bati',
+    title: 'maligayang walang bati',
+    date: 'July 2023',
+    form: 'shortform',
+    body: `
+<p>ngayon ko lang naipagtanto na kaya pala hindi na dumaraan sa isip ko ang araw na nagpapamukha sa akin ng malubhang pag-iisa</p>
+
+<p>sa pagdating ng sinta ko, hindi na ako muling tumuwad sa mga tao upang magmakaawa sa pagmamahal.</p>
+
+<p>dinala mo'y cubao expo vibes sa mundo ko'y may matataas at itim na pader. intramuros.</p>
+
+<p><em>* Note: The last line is taken from a Facebook post I read, though I've forgotten from where!</em></p>
+    `,
+  },
 ];
 
 export default papers;
