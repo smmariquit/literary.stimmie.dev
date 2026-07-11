@@ -12,10 +12,16 @@ papers.forEach((paper) => {
   btn.textContent = paper.title;
   btn.setAttribute('data-slug', paper.slug);
   btn.addEventListener('click', () => {
-    window.location.hash = paper.slug;
+    navigateTo(paper.slug);
   });
   nav.appendChild(btn);
 });
+
+function navigateTo(slug) {
+  const path = slug ? `/${slug}` : '/';
+  history.pushState(null, '', path);
+  render(slug);
+}
 
 function render(slug) {
   const paper = papers.find((p) => p.slug === slug);
@@ -62,17 +68,23 @@ function renderLanding() {
 
   // Show the first paper by default
   if (papers.length > 0) {
-    window.location.hash = papers[0].slug;
+    navigateTo(papers[0].slug);
   }
 }
 
-// Route on hash change
-window.addEventListener('hashchange', () => {
-  render(window.location.hash.slice(1));
+// Handle back/forward navigation
+window.addEventListener('popstate', () => {
+  const slug = slugFromPath();
+  render(slug);
 });
 
+function slugFromPath() {
+  const path = window.location.pathname;
+  return path === '/' ? '' : path.replace(/^\//, '').replace(/\/$/, '');
+}
+
 // Initial render
-const initialSlug = window.location.hash.slice(1);
+const initialSlug = slugFromPath();
 if (initialSlug) {
   render(initialSlug);
 } else {
