@@ -166,7 +166,7 @@ const papers = [
   {
     slug: 'di-kita-pipigilan',
     title: 'di kita pipigilan',
-    date: '2025',
+    date: 'July 2026',
     form: 'poem',
     body: `
 <div class="verse">
