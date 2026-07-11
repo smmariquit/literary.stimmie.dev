@@ -14,7 +14,7 @@
 const papers = [
   {
     slug: 'on-walking',
-    title: 'Overachievement and City Life',
+    title: 'On Walking',
     date: 'June 2025',
     form: 'shortform',
     body: `
@@ -362,7 +362,18 @@ if it's for ü</p>
 <p><a href="https://www.smcl.edu.ph/student_life/publications/Pahayagang%20Miguel%202023.php" target="_blank" rel="noopener noreferrer">View Publication</a></p>
     `,
   },
+  {
+    slug: 'overachievement-and-city-life',
+    title: 'Overachievement and City Life',
+    date: '2023',
+    form: 'shortform',
+    body: `
+<p>A reflection on the hustle and the quiet moments in between.</p>
+<p><em>(Excerpt from Medium essays)</em></p>
+    `,
+  },
 ];
 
 export default papers;
+
 
