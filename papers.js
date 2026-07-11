@@ -317,6 +317,19 @@ if it's for ü</p>
 </div>
     `,
   },
+  {
+    slug: 'pause',
+    title: '⏸︎',
+    date: '2023',
+    form: 'shortform',
+    body: `
+<p>It may be tempting to think that there is little room for error in these uncertain times in a journey to success. As adolescents&mdash;those who are in their most vulnerable years&mdash;attempt to navigate the changed landscape that the pandemic has brought upon us, it may be warranted, if not well-deserved, to take as long of a break as we need.</p>
+
+<p>The year that passed is one of reconnection and, by extension, one of rest. After battling challenges that we never would have thought we'd overcome, we got to reunite with the people or things in our life that we realized we took for granted.</p>
+
+<p>In the same period of time, we realized the importance of pause. As the idea of keeping busy in a distorted version of hustle culture grows more popular in the sense that there is no alternative for success,</p>
+    `,
+  },
 ];
 
 export default papers;
