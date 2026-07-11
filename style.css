@@ -194,7 +194,7 @@ main#reader {
 #paper-body hr {
   border: none;
   text-align: center;
-  margin: 2.5em 0;
+  margin: 1.2em 0;
 }
 
 #paper-body hr::after {
