@@ -10,13 +10,13 @@
   --serif: 'Cormorant Garamond', 'Georgia', serif;
   --sans: 'Inter', system-ui, sans-serif;
 
-  --fg: #1a1a1a;
-  --fg-muted: #6b6b6b;
+  --fg: #111;
+  --fg-muted: #555;
   --bg: #faf8f5;
   --bg-nav: #faf8f5;
-  --border: #e0dcd6;
-  --accent: #3d3429;
-  --link-hover: #8c7a5e;
+  --border: #d9d4cc;
+  --accent: #2a2218;
+  --link-hover: #6b5d48;
 
   --measure: 38em;
   --gutter: clamp(1.25rem, 5vw, 4rem);
