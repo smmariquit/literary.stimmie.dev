@@ -238,6 +238,19 @@ because you are my precious dreamer.</p>
 <p><em>* Note: The last line is taken from a Facebook post I read, though I've forgotten from where!</em></p>
     `,
   },
+  {
+    slug: 'hindi-ka-deep',
+    title: 'hindi ka deep',
+    date: 'October 2022',
+    form: 'shortform',
+    body: `
+<p>"I don't want small talk I want to talk about dark psychology, true crime, and quantum physics"</p>
+
+<p>shut up ang alam mo lang ay schrodinger's cat at heisenberg's uncertainty at standford prison experiment at pinaniniwalaan mong literal yung "biblically accurate angels"</p>
+
+<p>hindi ka deep</p>
+    `,
+  },
 ];
 
 export default papers;
